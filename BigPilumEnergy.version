@@ -1,0 +1,12 @@
+{
+    "masterVersionFile":"https://raw.githubusercontent.com/SirHartley/Big-Pilum-Energy/master/BigPilumEnergy.version",
+    "modName":"Big Pilum Energy",
+    "modVersion":
+    {
+        "major":1,
+        "minor":0,
+        "patch":"d"
+    },
+    "directDownloadURL":"https://github.com/SirHartley/Big-Pilum-Energy/releases/download/1.0.d/Big.Pilum.Energy1.0.d.zip",
+    "changelogURL":"https://raw.githubusercontent.com/SirHartley/Big-Pilum-Energy/refs/heads/master/Changelog",
+}
