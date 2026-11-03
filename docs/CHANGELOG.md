@@ -15,19 +15,21 @@ How agents write entries in the root `Changelog`. Read it for every implementati
 
 `Changelog` at the repository root, plain text, no extension. The fixed `Known issues` and `Notes` sections come first (`None` when empty), then the `Changelog` section with versions newest first and a blank line between them.
 
-- Version heading: the version alone on its line, optionally followed by ` - UNRELEASED`. No `v` prefix, no date, no Markdown. The release tooling reads these headings.
+- Version heading: the version alone on its line, optionally followed by ` - UNRELEASED` (next release) or ` - CURRENT PUBLIC VERSION` (newest published). No `v` prefix, no date, no Markdown. The release tooling reads these headings. Never add a save compatibility line unasked.
 - Entries: one change per line, starting `Added - `, `Adjusted - `, `Fixed - ` or `Removed - `. A released section needs at least one.
 - A `Note - ` line directly below an entry explains a limit or something the player must do.
 - If no unreleased section exists, add one above the newest version. Ask the user which version comes next if it has not been chosen.
-- The `1.0.d` and `1.0.c` sections keep the user's GitHub release text; do not rewrite them.
+- The `1.0.d` and `1.0.c` sections keep the user's GitHub release text.
 
 ## Wording
 
-Entries are player-facing: plain sentences in sentence case, not programmer speak.
+The `house-style` skill's "Changelog entries" section owns the wording and wins over this guide. For this mod:
 
-- Name the weapon so a player can find it (`Pilum LRM Launcher`, `Pilum LRM Catapult`).
-- Give old and new values for changed numbers.
-- No agent or model names, links, validation logs or commit hashes.
+- Name the weapon as the game does: `Pilum LRM Launcher`, `Pilum LRM Catapult`.
+- Numbers as old `->` new: `Adjusted - Pilum LRM Launcher missile speed 125 -> 200`.
+- Short lines (under 80 characters), capital after the dash, no full stop on a one-clause line, no semicolons.
+- No agent or model names, links, validation logs, commit hashes or claims about testing.
+- The user's own lines (`Icon (extremely important)`, `Perfection needs no changes`) stay verbatim. Do not imitate their voice.
 
 ## Maintenance
 

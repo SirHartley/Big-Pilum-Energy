@@ -45,7 +45,7 @@ java -cp out/release-tools ReleaseBuildChecks
 
 ## Publish
 
-1. Finish the newest `Changelog` section and remove `UNRELEASED`.
+1. Finish the newest `Changelog` section: replace ` - UNRELEASED` with ` - CURRENT PUBLIC VERSION` and remove that marker from the previous version.
 2. Run the checks and `package <version>` locally as the preview check.
 3. Merge `dev` into `master`.
 4. Start the Release workflow on `master` with `version` set: Actions tab, Release, Run workflow, or `gh workflow run release.yml --ref master -f version=<version>`. GitHub only offers a manual workflow once the file is on the default branch (`master`).
