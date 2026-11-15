@@ -21,7 +21,7 @@ Data map for the current implementation. Paths are repository-relative. The mod 
 
 | File | What it defines |
 |---|---|
-| `mod_info.json` | Id `pilumdoublespeed`, name `Big Pilum Energy`, game `0.98.5a-RC4`. No `jars`, no `modPlugin`, no dependencies, not marked `utility` |
+| `mod_info.json` | Id `pilumdoublespeed`, name `Big Pilum Energy`, game `0.98.5a-RC6`. No `jars`, no `modPlugin`, no dependencies, not marked `utility` |
 | `data/weapons/weapon_data.csv` | Full copies of the vanilla `pilum` and `pilum_large` rows with changed values |
 | `data/config/LunaSettingsConfig.json` | LunaLib config for mod id `pilumdoublespeed`: `iconPath` only |
 | `_best_missile.png` | 40x40 icon named by `iconPath`; at the mod root, not under `graphics/` |
