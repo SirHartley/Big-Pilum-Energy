@@ -1,6 +1,6 @@
 # Big-Pilum-Energy
 
-Starsector mod (game `0.98.5a-RC4`), data only: it replaces the vanilla `pilum` and `pilum_large` rows in `data/weapons/weapon_data.csv` so Pilum missiles fly faster. There is no Java code, no mod plugin and no save data.
+Starsector mod (game `0.98.5a-RC6`), data only: it replaces the vanilla `pilum` and `pilum_large` rows in `data/weapons/weapon_data.csv` so Pilum missiles fly faster. There is no Java code, no mod plugin and no save data.
 
 ## Required workflow
 

@@ -8,7 +8,10 @@ None
 
 --------------------------- Changelog -----------------------------
 
-1.0.e - CURRENT PUBLIC VERSION
+1.0.f - CURRENT PUBLIC VERSION
+Fixed - Launcher no longer warns about the game version on 0.98.5a-RC6
+
+1.0.e
 Added - Version Checker support
 Adjusted - Updated to Starsector 0.98.5a
 Note - Delete the old Big Pilum Energy folder from mods before installing
