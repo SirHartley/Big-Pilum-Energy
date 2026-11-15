@@ -5,8 +5,8 @@
     {
         "major":1,
         "minor":0,
-        "patch":"d"
+        "patch":"e"
     },
-    "directDownloadURL":"https://github.com/SirHartley/Big-Pilum-Energy/releases/download/1.0.d/Big.Pilum.Energy1.0.d.zip",
+    "directDownloadURL":"https://github.com/SirHartley/Big-Pilum-Energy/releases/download/1.0.e/Big.Pilum.Energy-1.0.e.zip",
     "changelogURL":"https://raw.githubusercontent.com/SirHartley/Big-Pilum-Energy/refs/heads/master/Changelog",
 }
